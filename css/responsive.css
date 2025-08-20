@@ -1,0 +1,54 @@
+@media (max-width: 768px) {
+    .skills-corner {
+        position: relative;
+        top: 0;
+        right: 0;
+        margin: 20px auto;
+        width: fit-content;
+    }
+
+    .header h1 {
+        font-size: 2rem;
+    }
+
+    .projects-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .projects-section {
+        margin-top: 20px;
+    }
+
+    .container {
+        padding: 10px;
+    }
+
+    .project-card {
+        padding: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .skills-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    
+    .skill-item {
+        width: 35px;
+        height: 35px;
+    }
+    
+    .skill-item i {
+        font-size: 16px;
+    }
+    
+    .project-buttons {
+        flex-direction: column;
+    }
+    
+    .github-btn, .live-btn {
+        width: 100%;
+        text-align: center;
+    }
+}

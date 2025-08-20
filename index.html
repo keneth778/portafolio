@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio - Desarrollador</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- CSS Modules -->
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/skills.css">
+    <link rel="stylesheet" href="css/projects.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <h1>Mi Portafolio</h1>
+            <p>Desarrollador Full Stack</p>
+        </header>
+
+        <!-- Skills Corner -->
+        <div class="skills-corner">
+            <div class="skills-grid" id="skillsGrid">
+                <!-- Skills will be loaded here -->
+            </div>
+        </div>
+
+        <!-- Projects Section -->
+        <section class="projects-section">
+            <h2 class="section-title">Mis Proyectos</h2>
+            <div class="projects-grid" id="projectsGrid">
+                <!-- Projects will be loaded here -->
+            </div>
+        </section>
+    </div>
+
+    <!-- JavaScript Modules -->
+    <script src="js/projects-data.js"></script>
+    <script src="js/projects-renderer.js"></script>
+    <script src="js/skills-handler.js"></script>
+    <script src="js/animations.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
